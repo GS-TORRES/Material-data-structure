@@ -2,8 +2,6 @@
 #include <stdlib.h>
 #include "f_list_circular.h"
 
-
-
 void main(){
   CList *list = makeList();
   showList(list);
@@ -34,8 +32,6 @@ void main(){
 
   printf("\n Deletando a Lista\n");
   delList(list);
-
-
 }
 
 int infoNode(node* l){
